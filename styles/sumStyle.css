@@ -1,21 +1,30 @@
 #sum {
   width: 100%;
-  margin: 10px auto;
+  margin: 0px auto 15px;
   max-width: 400px;
-  border: 2px solid rgb(116, 71, 189);
-  border-radius: 4px;
-  padding: 3px;
+  border-radius: 10px;
+  padding: 10px;
   background-color: #f2f2f2;
   flex-wrap: wrap;
+  border: .3em solid rgba(0, 0, 0, 0.15);
+}
+
+#sum:hover {
+  border: 2px solid rgb(144, 75, 184);
 }
 
 #valueSum {
   width: 100%;
   font-size: 35px;
-  border-radius: 3px;
+  border-radius: 5px;
   background-color: #f2f2f2;
-  border: 1px solid rgb(116, 71, 189);
+  border: 1px solid rgba(0, 0, 0, 0.40);
   padding-left: 15px;
+}
+
+#valueSum:hover {
+  font-size: 2.4em;
+  border-color: rgb(144, 75, 184);
 }
 
 #sum table {
@@ -31,5 +40,5 @@
 }
 
 #sum tr:hover {
-  background-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.10);
 }

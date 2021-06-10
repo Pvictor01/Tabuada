@@ -13,7 +13,7 @@ function division() {
       <td>÷</td>
       <td>${valueB}</td>
       <td>=</td>
-      <td>${result}</td>
+      <td>${result.toFixed(2)}</td>
     `;
 
     let tr = document.createElement('tr')
